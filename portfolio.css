@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('newImahe');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+}
+
+.project {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(139, 116, 0);
+    box-shadow: 5px 6px 5px gold;
+    display: block;
+    margin: 0 auto;
+}
+
+h4 a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: goldenrod;
+    text-align: center;
+    padding: 20px;
+}
+
+footer div h4 {
+    color: black;
+}
+
+button {
+    border-radius: 10%;
+    background-color: black;
+    color: gold;
+    border: 2px solid black;
+    font-size: large;
+    box-shadow: 4px 3px 4px 3px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 50px 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    marquee h1 {
+        font-size: 1.2em;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    footer nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    footer nav ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 30px 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    marquee h1 {
+        font-size: 1em;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+    footer nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    footer nav ul li {
+        margin-bottom: 5px;
+    }
+}
