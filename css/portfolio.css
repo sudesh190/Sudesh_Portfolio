@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url('newImahe');
+    background-image: url('../images/newImahe.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
